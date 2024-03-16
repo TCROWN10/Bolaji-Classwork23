@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 5rem;
+    background: hsl(235, 18%, 26%);
+   
+}
+
+.main-container{
+    display: flex;
+    /* justify-content: center; */
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    border-radius: 1rem;
+    /* margin-left: 15rem; */
+}
+.image-container{
+    display: flex;
+    padding: 0.5rem;
+   
+}
+.image-paragraphs{
+    padding-bottom: 2rem;
+}
+.paragraph-container{
+    width: 400px;
+    padding-left: 1rem;
+}
+.Text-container{
+padding-left: 3rem;
+padding-top: 4rem;
+/* padding: 1.5rem; */
+}
+.Text-container h1{
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size:xx-large;
+    color: hsl(234, 29%, 20%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal
+    
+}
+#paragraph-one{
+    padding-bottom: 1rem;
+    width: 80%;
+    padding-left: 1rem;
+}
+.background-container{
+    background-image: url(illustration-sign-up-desktop.svg);
+    background-size: cover;
+    width: 23rem;
+    margin: 1rem;
+    
+} 
+#label-one{
+    padding-left: 1rem;
+}    
+#errormessage{
+    color: red;
+    display: none;
+    margin-left: 13rem;
+}  
+input{
+    width: 75%;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}   
+#Button{
+width: 75%;
+padding: 1rem;
+margin-left: 1rem;
+color: aliceblue;
+background: hsl(235, 18%, 26%);
+border-radius: 0.5rem;
+border: none;
+margin-bottom: 4rem;
+cursor: pointer;
+}
+.Thank-container{
+    background: hsl(0, 0%, 100%);
+    width: 33%;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: none;
+}
+.Thank-container img{
+padding-bottom: 2rem;
+width: 15%;
+padding-left: 1rem;
+}
+.Thank-container h1{
+    padding-bottom: 1rem;
+    width: 50%;
+    padding-left: 1rem;
+}
+.Thank-container p{
+    width: 86%;
+    padding-bottom: 3rem;
+    /* padding-left: 2rem; */
+}
+#Last-btn{
+    width: 86%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: hsl(0, 0%, 100%);
+    background: hsl(4, 100%, 67%);
+    border: none;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:375px){
+    body{
+        margin: 1rem;
+        background: hsl(235, 18%, 26%);
+       
+    }
+    
+    .main-container{
+        display: block;
+        background-color: hsl(0, 0%, 100%);
+        width: 100%;
+        border-radius: 1rem;
+    }
+    #errormessage{
+        color: red;
+        display: none;
+        margin-left: 9.5rem;
+        /* width: 100%; */
+    }
+    .background-container{
+        position: relative;
+        bottom: 35rem;
+        right: 0.5rem;
+        background-image: url(illustration-sign-up-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         max-width: 100%;
+         max-height: 100%;
+         border-radius: 1rem;
+         /* background-position: top; */
+         width: 21rem;
+         height: 10rem;
+        
+        
+    } 
+    .Text-container{
+        position: relative;
+        top: 8rem;
+        right: 1rem;
+    }
+    input{
+        position: relative;
+        width: 90%;
+        top: 3rem;
+    }
+    #Button{
+        position:relative;
+        width: 90%;
+        top: 3rem;
+        }
+     #label-one{
+        position: relative;
+        top: 3rem;
+        }
+        .image-container{
+            display: flex;
+            padding: 0.5rem;
+            position: relative;
+            top: 1rem;
+        }        
+      #paragraph-one{
+            width: 100%;
+            position: relative;
+            top: 1rem;
+         }    
+   .Text-container h1{
+    position: relative;
+    top: 0.5rem;
+   }                        
+}
